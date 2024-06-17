@@ -51,7 +51,7 @@ python scripts/evaluate_model.py NoBRS \
 
 ### Training
 
-Before training, please download the pre-trained weights (click to download: [ViT](https://dl.fbaipublicfiles.com/mae/pretrain) and [Swin](https://github.com/microsoft/Swin-Transformer)).
+Before training, please download the pre-trained weights (click to download: [ViT](https://github.com/facebookresearch/mae) and [Swin](https://github.com/microsoft/Swin-Transformer)).
 
 Use the following code to train a base model on coco+lvis dataset:
 
