@@ -1,0 +1,41 @@
+INTERACTIVE_MODELS_PATH: "./weights"
+EXPS_PATH: "/home/lik/code/IS/iCMFormer/weights/model"
+
+# Evaluation datasets
+GRABCUT_PATH: "/home/lik/data/GrabCut"
+BERKELEY_PATH: "/home/lik/data/Berkeley"
+DAVIS_PATH: "/home/lik/data/DAVIS"
+COCO_MVAL_PATH: "/home/lik/data/COCO_MVal"
+COCO_MOIS_PATH: "/home/lik/data/MOIS"
+HIM2K_PATH: "/home/lik/data/HIM2K"
+# BraTS_PATH: "/work/data/BraTS20"
+# ssTEM_PATH: "/work/data/ssTEM"
+# OAIZIB_PATH: "/work/data/OAI-ZIB"
+# OAI_PATH: "/work/data/OAI"
+# HARD_PATH: "/work/data/HARD"
+
+# Train datasets
+SBD_PATH: "/home/lik/data/SBD"
+# COCO_PATH: "/work/data/COCO_2017"
+LVIS_v1_PATH: "/home/lik/data/CocoLvis"
+# OPENIMAGES_PATH: "/work/data/OpenImages"
+# PASCALVOC_PATH: "/work/data/PascalVOC"
+# ADE20K_PATH: "/work/data/ADE20K"
+
+# You can download the weights for HRNet from the repository:
+# https://github.com/HRNet/HRNet-Image-Classification
+IMAGENET_PRETRAINED_MODELS:
+  HRNETV2_W18: "/home/lik/code/IS/iCMFormer/pretrained/hrnetv2_w18_imagenet_pretrained.pth"
+  HRNETV2_W18_SMALL: "/home/lik/code/IS/iCMFormer/pretrained/hrnet_w18_small_model_v2.pth"
+  # HRNETV2_W32: "./weights/pretrained/hrnetv2_w32_imagenet_pretrained.pth"
+  # HRNETV2_W32_SOTA: "./weights/coco_lvis_h32_itermask.pth"
+  # HRNETV2_W40: "./weights/pretrained/hrnetv2_w40_imagenet_pretrained.pth"
+  # HRNETV2_W48: "./weights/pretrained/hrnetv2_w48_imagenet_pretrained.pth"
+  # HRNETV2_W64: "./weights/pretrained/hrnetv2_w64_imagenet_pretrained.pth"
+  SWIN_TINY: "/home/lik/code/IS/iCMFormer/pretrained/swin_tiny_patch4_window7_224_22k.pth"
+  SWIN_SMALL: "/home/lik/code/IS/iCMFormer/pretrained/swin_small_patch4_window7_224_22k.pth"
+  SWIN_BASE: "/home/lik/code/IS/iCMFormer/pretrained/swin_base_patch4_window12_384_22k.pth"
+  SWIN_LARGE: "/home/lik/code/IS/iCMFormer/pretrained/swin_large_patch4_window12_384_22k.pth"
+  MAE_BASE: "/home/lik/code/IS/iCMFormer/pretrained/mae_pretrain_vit_base.pth"
+  MAE_LARGE: "/home/lik/code/IS/iCMFormer/pretrained/mae_pretrain_vit_large.pth"
+  MAE_HUGE: "/home/lik/code/IS/iCMFormer/pretrained/mae_pretrain_vit_huge.pth"
